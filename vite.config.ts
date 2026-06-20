@@ -4,9 +4,11 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/quiz-flagi-mundial-2026/',
   plugins: [
     react(),
     tailwindcss(),
   ],
 })
+
 
